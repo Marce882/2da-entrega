@@ -1,7 +1,3 @@
-//let boton = document.getElementById("boton")
-//boton.onclick = reservar()
-
-
 function reservar() {
 
     class Reserva {
