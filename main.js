@@ -29,11 +29,12 @@ function reservar() {
 }
 let reservasListar = []
 
-function listar(){
-    console.log('listado')
-    reservasListar.push(nuevaReserva)
-    console.log(reservasListar)
-    document.getElementById("tabla").innerHTML += '<tbody><td>'+nuevaReserva.nombre+'</td><td>'+nuevaReserva.apellido'</td><td>'22 hs'</td><td>'Cañuelas'</td><td>'Cap Fed'</td></tbody>'
+function listar() {
+
+console.log('listado')
+reservasListar.push(nuevaReserva)
+console.log(reservasListar)
+document.getElementById("tabla").innerHTML += '<tbody><td>' + nuevaReserva.nombre + '</td><td>' + nuevaReserva.apellido + '</td><td>' + nuevaReserva.horario + '</td><td>' + nuevaReserva.origen + '</td><td>' + nuevaReserva.destino + '</td></tbody>'
 
 }
 
